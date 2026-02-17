@@ -31,7 +31,7 @@ The system consists of the following major components:
 
 2. **Experts (Specialized LLM Configurations)**  
    Each expert is simulated using:
-   - The same base model (`mixtral-8x7b-32768`)
+   - The same base model (`openai/gpt-oss-120b`)
    - Different System Prompts
 
 3. **Orchestrator**  
