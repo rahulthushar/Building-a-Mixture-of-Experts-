@@ -1,25 +1,24 @@
-# 🧠 Smart Customer Support Router using Mixture of Experts (MoE)
+#  Smart Customer Support Router using Mixture of Experts (MoE)
 
-## 📘 Unit 2 Assignment  
 ### Topic: Advanced Architecture using Groq API
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The objective of this project is to build a **Smart Customer Support Router** using a **Mixture of Experts (MoE)** architecture.
 
 Instead of using a single general-purpose AI model to handle all customer queries, this system intelligently routes user queries to specialized expert configurations such as:
 
-- 👨‍💻 Technical Expert → Handles bug reports and coding issues  
-- 💳 Billing Expert → Handles refunds and payment issues  
-- 🤝 General Expert → Handles casual conversations  
+- Technical Expert → Handles bug reports and coding issues  
+- Billing Expert → Handles refunds and payment issues  
+- General Expert → Handles casual conversations  
 
 The router determines the most appropriate expert using an LLM-based intent classification mechanism and forwards the request accordingly.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system consists of the following major components:
 
@@ -54,7 +53,7 @@ The system consists of the following major components:
 
 ---
 
-## 📦 Required Imports
+## Required Imports
 
 ```python
 from groq import Groq
