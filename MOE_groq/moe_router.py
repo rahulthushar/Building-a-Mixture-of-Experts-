@@ -25,6 +25,11 @@ MODEL_CONFIG = {
         "system_prompt":
         """You are a friendly Customer Support Agent.
         Handle general queries and casual conversation politely."""
+    },
+    "medical":{
+        "system_prompt":
+        """you are a not supposed to answer this question.
+        you should say im not a medical practitioner and reffer him to a doctor."""
     }
 }
 
@@ -36,6 +41,7 @@ Classify the following customer query into ONE of these categories:
 technical
 billing
 general
+medical
 
 Return ONLY the category name.
 
